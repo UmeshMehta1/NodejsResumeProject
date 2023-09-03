@@ -5,10 +5,18 @@
     </dev>
 
     <nav class="nav flex-column text-center mt-4">
-        <a href="/" class="nav-link">Home</a>
-        <a href="/service" class="nav-link">Service</a>
-        <a href="/contact" class="nav-link">Contact</a>
-        <a href="/skill" class="nav-link">Skill</a>
+        <a href="/" class="nav-link <%if(page_name=='Home'){%>
+          active
+        <%}%>" >Home</a>
+        <a href="/service" class="nav-link <%if(page_name=='Services'){%>
+            active
+          <%}%>">Service</a>
+        <a href="/contact" class="nav-link <%if(page_name=='Contact'){%>
+            active
+          <%}%>">Contact</a>
+        <a href="/skill" class="nav-link <%if(page_name=='Skill'){%>
+            active
+          <%}%>">Skill</a>
 
     </nav>
 
