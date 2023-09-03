@@ -1,5 +1,5 @@
 const homeController = (req,res)=>{
-    res.render('home')
+    res.render('home', {'title':'home'})
 }
 
 export {homeController}
