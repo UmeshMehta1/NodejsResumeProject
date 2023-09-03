@@ -15,4 +15,5 @@ html,body{
 
 .active{
     background-color: rgb(35, 181, 3);
+    color: #fff;
 }

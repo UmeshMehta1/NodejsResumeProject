@@ -1,5 +1,5 @@
 const skillController = (req,res)=>{
-    res.render('home', {'title':'Skill'})
+    res.render('skill', {'title':'Skill'})
 }
 
 export {skillController}
