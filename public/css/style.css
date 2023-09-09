@@ -12,6 +12,17 @@ html,body{
     height: 100%;
     width: 100%;
 }
+.container-fluid{
+    height: 100%;
+}
+
+.ss-color{
+    color: silver;
+}
+
+.i-color{
+    color: chartreuse;
+}
 
 .active{
     background-color: rgb(35, 181, 3);
